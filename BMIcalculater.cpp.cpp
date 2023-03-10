@@ -16,7 +16,7 @@ int main()
      char g;
      cout <<"ENTER GENDER (M/F) :";
      cin >> g;
-     if (g ='M' || g='m')
+     if (g =='M' || g=='m')
 {
     if (BMI <= 19)
 {
@@ -31,7 +31,7 @@ int main()
     cout << "YOU ARE OVERWEIGHT";
 }
 }
-   else if (g ='F' || g='f')
+   else if (g =='F' || g=='f')
 {
     if (BMI <= 18)
 {

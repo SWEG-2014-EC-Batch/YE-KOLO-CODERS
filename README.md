@@ -1,2 +1,3 @@
 # YE-KOLO-CODERS
-Group of girls who code!
+Empowered by code, driven by innovation - we are the YE-KOLO-CODERS!
+

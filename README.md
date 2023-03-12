@@ -1,6 +1,11 @@
 # YE-KOLO-CODERS
 Group of girls who code!
-
+                       https://giphy.com/gifs/scaler-official-computer-laptop-hello-world-hpXdHPfFI5wTABdDx9
+              
+              
+              
+              
+              
 # About YE-KOLO-CODERS
 
 YE-KOLO-CODERSis a group of students interested in software engineering, programming languages, and databases. Our goal is to create innovative solutions to complex problems while continuously learning and improving our skills.

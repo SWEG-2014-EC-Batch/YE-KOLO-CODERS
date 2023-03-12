@@ -25,3 +25,10 @@ Project 3: This project involves creating an income calculator, that takes tax, 
 
 Project 4: Last but not Least, thiss project invloves creating a Grade Calculator for students.
 
+# Contributing We welcome contributions to our projects!
+If you are interested in contributing, please follow these steps: 
+1. Fork the repository. 
+2. Create your feature branch.
+3. Commit your changes.
+4. Push to the branch.
+5. Create a pull request. 

@@ -1,7 +1,7 @@
 # YE-KOLO-CODERS
 Group of girls who code!
          
-#My GIF
+# My GIF
 https://giphy.com/gifs/scaler-official-computer-laptop-hello-world-hpXdHPfFI5wTABdDx9
               
               

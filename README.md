@@ -1,10 +1,14 @@
 # YE-KOLO-CODERS
 Group of girls who code!
+
+# About YE-KOLO-CODERS
+
+YE-KOLO-CODERSis a group of students interested in software engineering, programming languages, and databases. Our goal is to create innovative solutions to complex problems while continuously learning and improving our skills.
  
- # FPG1 Coding Projects
+# FPG1 Coding Projects
 
 
-"Ye Kolo Coders" group, which is a group of software engineering students working on various projects together as part of their  FPG1 coursework.
+YE-KOLO-CODERS is a group of software engineering students working on various projects together as part of their  FPG1 coursework.
 The following are the projects we are currently working on:
 
 Project 1: This project involves developing a BMI calculator for 'N'number of people.

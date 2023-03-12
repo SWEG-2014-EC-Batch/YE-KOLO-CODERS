@@ -5,7 +5,7 @@ Group of girls who code!
 
 YE-KOLO-CODERSis a group of students interested in software engineering, programming languages, and databases. Our goal is to create innovative solutions to complex problems while continuously learning and improving our skills.
  
-# FPG1 Coding Projects
+# YE-KOLO-CODERS Coding Projects
 
 
 YE-KOLO-CODERS is a group of software engineering students working on various projects together as part of their  FPG1 coursework.

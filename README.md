@@ -2,7 +2,7 @@
 Group of girls who code!
          
 # My GIF
-![me] (https://media2.giphy.com/media/HscDLzkO8EOTmgkhQP/200w.webp?cid=ecf05e47btpom07ls52iv0q2qu03ah3rfkqm3h982gt5my9e&rid=200w.webp&ct=g)
+![me](https://media2.giphy.com/media/HscDLzkO8EOTmgkhQP/200w.webp?cid=ecf05e47btpom07ls52iv0q2qu03ah3rfkqm3h982gt5my9e&rid=200w.webp&ct=g)
               
               
               

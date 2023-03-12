@@ -1,6 +1,6 @@
 # YE-KOLO-CODERS
 Group of girls who code!
-                       https://giphy.com/gifs/scaler-official-computer-laptop-hello-world-hpXdHPfFI5wTABdDx9
+         
               
               
               

@@ -9,7 +9,7 @@ Group of girls who code!
               
 # About YE-KOLO-CODERS
 
-YE-KOLO-CODERSis a group of students interested in software engineering, programming languages, and databases. Our goal is to create innovative solutions to complex problems while continuously learning and improving our skills.
+YE-KOLO-CODERS is a group of female students interested in software engineering, programming languages, and databases. Our goal is to create innovative solutions to complex problems while continuously learning and improving our skills. 
  
 # YE-KOLO-CODERS Coding Projects
 
@@ -32,3 +32,11 @@ If you are interested in contributing, please follow these steps:
 3. Commit your changes.
 4. Push to the branch.
 5. Create a pull request. 
+
+
+# Contact 
+If you have any questions or want to reach out to us, feel free to contact us via:
+ Email: yekolocoders34@yahoo.com 
+ 
+ 
+ Thank you for your interest in Ye Kolo Coders!

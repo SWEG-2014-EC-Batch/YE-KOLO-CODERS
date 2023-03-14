@@ -12,14 +12,27 @@ int main()
 
         float Height, Weight;
 
+
         cout << "Enter Height in meters:";
         cin >> Height;
+
+        while(Height<0)
+        {
+            cout<<"Error Height cannot be negative,re-enter Height:"<<endl;
+            cin>>Height;
+        }
         cout << "Enter Weight in kilograms: ";
         cin >> Weight;
 
+         while(Weight<0)
+        {
+            cout<<"Error Weight cannot be negative,re-enter Weight:"<<endl;
+            cin>>Weight;
+        }
+
         float BMI;
         BMI = Weight / (Height * Height);
-        cout << "Your BMI is:" << BMI<<endl;
+        cout << "your BMI is:" << BMI<<endl;
 
         char r;
         cout << "Please insert your gender (M) For male or (F)For female): ";

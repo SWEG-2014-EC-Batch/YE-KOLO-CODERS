@@ -9,7 +9,7 @@ int main()
   cout<<"ENTER GROSS SALARY:";
   cin>>grosssalary;
   
-   while(gsalary<0)
+   while(grosssalary<0)
    {
         cout<<"Invalid Input,please re-enter your grosssalary";
         cin>>grosssalary;
@@ -40,7 +40,7 @@ int main()
   cout<<"ENTER GIFT AMOUNT:";
   cin>>gift;
 
- float  income=gsalary+bonus+gift;
+ float  income=grosssalary+bonus+gift;
 
   if(income<=200)
   {
@@ -63,6 +63,6 @@ int main()
   tax=0.3*income;
   }
 
-  float nsalary=income-tax-pension;
+  float netsalary=income-tax-pension;
 
   cout<<"YOUR NETSALARY IS:"<<nsalary<<endl;

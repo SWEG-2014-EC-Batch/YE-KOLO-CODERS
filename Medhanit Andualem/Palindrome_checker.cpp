@@ -15,10 +15,12 @@ int main() {
         temp /= 10;
     }
 
-    if(num == rev){
+    if(num == rev)
+    {
         cout<<"yes it is a palindrom";
     }
-    else{
+    else
+    {
         cout << "no it's not a palindrom";
     }
 

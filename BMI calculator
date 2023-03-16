@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	int n,i;
+	cout<<"enter the number of people ";
+	cin>>n;
+	for(i=0; i<=n; i++){
+	float h, w;
+	float bmi= w/(h*h);
+    cout<<"enter h in meter ";
+    cin>> h;
+    cout<<"enter w in kilogram ";
+    cin>>w;
+	char g;
+	cout <<"enter gender (M/F) in upper case " ;
+	cin>> g;
+	if (g='M')
+{
+    if (bmi <= 19) {
+	cout<< "you are underweight ";
+	}else if (bmi<= 25){
+    	cout<<"you are ideal weight ";
+	} else {
+		cout<<"you are overweight ";
+	}} 
+	else if(g='F')
+	
+     if (bmi<= 18){
+	cout<< "you are underweight ";
+	}else if (bmi<= 24){
+    	cout<<"you are ideal weight ";
+	} else {
+		cout<<"you are overweight ";
+}
+    return 0;
+}}

@@ -1,0 +1,71 @@
+#include <iostream>
+using namespace std;
+int main ()
+{
+	
+	float total_mark, q, a, p, t, f;
+	cout<<"enter the quiz ";
+	do{
+		cin>>q;
+		if(q<0 && q>5){
+		cout<<"re enter your quiz mark out of 5% ";
+		}
+	}while(q<0 && q>5);
+	cout<<"enter assignment mark "; 
+	do{
+		cin>>a;
+		if (a<0 && a>10){
+			cout<<"re enter your assignment mark out of 10% ";
+		}
+	}while(a<0 && a>10);
+	cout<<"enter project mark ";
+	do{
+		cin>>p;
+		if(p<0 && p>20){
+			cout<<"re enter your project mark out of 20% ";
+		}
+	}while(p<0 && p>20);
+	cout<<"enter test mark ";
+	do{
+		cin>>t;
+		if (t<0 && t>15){
+			cout<<"re enter your test mark out of 15% ";
+		}
+	}while (t<0 && t>15);
+	cout <<"enter final test mark ";
+	do{
+		cin>>f;if (f<0 && f>50){
+			cout<<"re enter your final mark out of 50% ";
+		}
+	}while (f<0 && f>50);
+	total_mark = q+a+p+t+f;
+	cout<<"your total_mark is "<< total_mark<<endl;
+   if (total_mark>= 90){
+   	cout<<"it is A+ ";
+   }
+   else if (total_mark>=80)
+   {
+   	cout<< "it is A ";
+   }else if (total_mark>= 75)
+   {
+   	cout<<"it is B+ ";
+   }else if (total_mark>=60)  
+   {
+   	cout<<"it is B-";
+   }else if(total_mark>=55)
+   {
+   	cout<<"it is C+";
+   }else if (total_mark>=45)
+   {
+   	cout<<"C";
+   }
+   else if(total_mark>=30)
+   {
+   	cout<<"D";
+   }
+   else if (total_mark<30)
+   {
+   	cout<<"F";
+   }
+   return 0;
+}

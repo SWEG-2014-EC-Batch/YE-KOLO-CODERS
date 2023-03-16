@@ -4,8 +4,14 @@ using namespace std;
 
 int main()
 {
-  float grosssalary,workedhours,overtimerate,bonus,gift,tax;
-  float pension=0.7*income;
+  float grosssalary;
+  float workedhours;
+  float overtimerate;
+  float bonus;
+  float gift;
+  float tax;
+  float pension;
+  
   cout<<"ENTER GROSS SALARY:";
   cin>>grosssalary;
   
@@ -62,7 +68,7 @@ int main()
   {
   tax=0.3*income;
   }
-
+  pension=0.7*income;
   float netsalary=income-tax-pension;
 
   cout<<"YOUR NETSALARY IS:"<<nsalary<<endl;

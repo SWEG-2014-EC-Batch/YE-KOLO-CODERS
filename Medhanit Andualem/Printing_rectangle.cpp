@@ -8,10 +8,13 @@ int main()
     cin>>x;
     cout<<"Enter Width";
     cin>>y;
-    for( int i=1; i<=x; i++ ){
-        for( char j=1; j<=y; j++){
+    for( int i=1; i<=x; i++ )
+    {
+        for( char j=1; j<=y; j++)
+    {
         cout<<"* ";
-    }cout<<endl;
+    }
+        cout<<endl;
     }
     return 0;
 }

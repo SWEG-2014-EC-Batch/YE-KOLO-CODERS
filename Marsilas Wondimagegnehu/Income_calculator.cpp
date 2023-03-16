@@ -24,7 +24,8 @@ int main(){
     bonus = gross_salary * (worked_hours - 40);
     pension = gross_salary * .07;
   
-    if(worked_hours > 40){
+    if(worked_hours > 40)
+    {
         bonus = gross_salary * (worked_hours - 40);
     }
     

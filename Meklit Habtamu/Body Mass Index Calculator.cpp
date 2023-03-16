@@ -70,7 +70,6 @@ int main()
                 cout << "You are overweight"<<endl;
         }
 
-
     }
 
     return 0;

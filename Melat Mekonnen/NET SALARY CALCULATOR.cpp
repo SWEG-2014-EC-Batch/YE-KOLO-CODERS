@@ -37,7 +37,8 @@ int main() {
      } else if (income >= 2000 && income <= 3500)
      {
           tax = 0.25 * income;
-    } else
+    } 
+    else
     {
          tax = 0.3 * income;
     } pension = 0.07 * gsalary;

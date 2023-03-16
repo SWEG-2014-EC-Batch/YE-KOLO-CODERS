@@ -71,4 +71,4 @@ int main()
   pension=0.7*income;
   float netsalary=income-tax-pension;
 
-  cout<<"YOUR NETSALARY IS:"<<nsalary<<endl;
+  cout<<"YOUR NETSALARY IS:"<<netsalary<<endl;

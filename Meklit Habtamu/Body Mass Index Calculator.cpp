@@ -4,10 +4,10 @@ using namespace std;
 int main()
 {
 
-    int j,i;
+    int j;
     cout << "Enter the number of people";
     cin >> j;
-    for (i = 1;i<=j;i++)
+    for (int i = 1;i<=j;i++)
     {
 
         float Height, Weight;
@@ -38,12 +38,12 @@ int main()
         cout << "Please insert your gender (M) For male or (F)For female): ";
         cin >> r;
 
-         while (r!='F' && r!='f' && r!='m' && r!='M')
+         while (toupper(r)!='M' || toupper(r)!='F')
         {
             cout<<"Wrong input enter (M) or (F)"<<endl;
             cin>>r;
         }
-        if (r =='M'|| r =='m')
+        if (toupper(r)=='M')
         {
             if (BMI >= 19 && BMI <= 25)
             {
@@ -60,7 +60,7 @@ int main()
                 cout << "You are overweight"<<endl;
             }
         }
-        else if(r =='F' || r =='f')
+        else if(toupper(r)=='F' )
         {
             if (BMI >= 18 && BMI <= 24)
                 cout << "You are healthy"<<endl;

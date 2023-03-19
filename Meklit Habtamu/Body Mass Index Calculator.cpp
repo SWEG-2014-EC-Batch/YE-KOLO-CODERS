@@ -60,7 +60,7 @@ int main()
                 cout << "You are overweight"<<endl;
             }
         }
-        else if(toupper(r)=='F' )
+        else if(toupper(r)=='F')
         {
             if (BMI >= 18 && BMI <= 24)
                 cout << "You are healthy"<<endl;
@@ -74,3 +74,4 @@ int main()
 
     return 0;
 }
+

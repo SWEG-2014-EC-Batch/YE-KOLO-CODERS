@@ -12,7 +12,7 @@ int main() {
     return 0;
   }
 
-  int totalWidth = 38; // Total width of the pattern
+  int totalWidth = 38; //The Total width of the pattern
 
   // Print the upper half of the pattern
   for (int i = 0; i < n; i++) {

@@ -24,9 +24,9 @@ int main()
         switch (person_code)
         {
             case 1:
-                num_infants++;
-                entrance_fee = 5;
-                break;
+               num_infants++
+	       entrance_fee = 5;
+	       break;
             case 2:
                 num_children++;
                 entrance_fee = 10;
@@ -51,10 +51,10 @@ int main()
    cout<<"\nTotal number of people: "<<total_people <<endl;
     cout<<"total ticket sales: "<<total_sales <<" ETB\n" <<endl; 
     cout<<"\nBreakdown by person code: \n ";
-   cout<<"1(infants): "<<num_infants <<"people\n";
-    cout<<"2(child): "<<num_children <<"people\n";
-   cout<<"3(teenager) : "<<num_teens <<"people\n";
-    cout<<"4(adult): "<<num_adults <<"people\n";
+   cout<<"1(infants): "<<num_infants <<" people\n";
+    cout<<"2(child): "<<num_children <<" people\n";
+   cout<<"3(teenager) : "<<num_teens <<" people\n";
+    cout<<"4(adult): "<<num_adults <<" people\n";
    cout<<"Total Attendees; "<<total_people;
    return 0;
 }

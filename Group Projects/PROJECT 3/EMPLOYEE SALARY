@@ -35,3 +35,40 @@ int main()
               } 
               else { employees[count].salary = employees[count].hours * hourlyWage; }
               break; 
+ case 3:
+              cout << "Enter gross weekly sales amount: ";
+              cin >> employees[count].sales;
+              employees[count].salary = 250 + employees[count].sales * 0.057;
+              break;
+        case 4:
+              cout << "Enter number of items produced: ";
+              cin >> employees[count].pieces;
+              cout << "Enter amount paid per item: ";
+              double pieceRate;
+              cin >> pieceRate;
+              employees[count].salary = employees[count].pieces * pieceRate;
+              break;
+        default:
+              cout << "Invalid employee code. Please try again." << endl;
+              count--;
+              break;
+    }
+              count++;
+              if (count < MAX_EMPLOYEES)
+            {
+                cout << "Do you want to enter data for another employee? (y/n): ";
+                cin >> choice;
+            }
+    }
+             cout << "Weekly Pay of Employees" << endl;
+             cout << setw(10) << left << "Code" << setw(10) << left << "Salary" << endl;
+         for (int i = 0; i < count; i++)
+         {
+              cout << setw(10) << left << employees[i].code << setw(10) << left << employees[i].salary << endl;
+         }
+
+
+         return 0;
+
+
+ }

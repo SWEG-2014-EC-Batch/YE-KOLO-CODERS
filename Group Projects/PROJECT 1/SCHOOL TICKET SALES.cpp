@@ -41,12 +41,12 @@ int main()
                 break;
             default:                         
                 cout << "Invalid code" << endl;
-                return 0;
-                
+                return 0;         
 	}
+	    
         total_people++;
         total_sales+= entrance_fee;
-		}
+		
         } while (true);                    
     cout<<"\nTotal number of people: "<<total_people <<endl;
     cout<<"total ticket sales: "<<total_sales <<" ETB\n" <<endl; 

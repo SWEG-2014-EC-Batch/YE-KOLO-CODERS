@@ -42,4 +42,14 @@ int main()
             default:
                 cout << "Invalid code" << endl;
                 return 0;
-        }
+        }while (true);                    
+   cout<<"\nTotal number of people: "<<total_people <<endl;
+    cout<<"total ticket sales: "<<total_sales <<" ETB\n" <<endl; 
+    cout<<"\nBreakdown by person code: \n ";
+   cout<<"1(infants): "<<num_infant <<"people\n";
+    cout<<"2(child): "<<num_child <<"people\n";
+   cout<<"3(teenager) : "<<num_teens <<"people\n";
+    cout<<"4(adult): "<<num_adult <<"people\n";
+   cout<<"Total Attendees; "<<total_people;
+   return 0;
+}

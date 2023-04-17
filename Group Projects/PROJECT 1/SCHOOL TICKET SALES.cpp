@@ -47,8 +47,7 @@ int main()
         total_people++;
         total_sales+= entrance_fee;
 		}
-        }
-while (true);                    
+        } while (true);                    
     cout<<"\nTotal number of people: "<<total_people <<endl;
     cout<<"total ticket sales: "<<total_sales <<" ETB\n" <<endl; 
     cout<<"\nBreakdown by person code: \n ";

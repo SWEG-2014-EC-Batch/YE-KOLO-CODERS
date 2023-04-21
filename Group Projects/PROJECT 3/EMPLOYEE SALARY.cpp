@@ -11,6 +11,7 @@ int main()
 
 { 
     Employee employees[MAX_EMPLOYEES]; 
+    char choice='y';
     int count = 0; // Prompt user to enter employee data char choice = 'y'; 
     while (choice == 'y' && count < MAX_EMPLOYEES) 
     {

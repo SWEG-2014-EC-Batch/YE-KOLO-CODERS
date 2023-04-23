@@ -8,7 +8,7 @@ int main()
 
 
     cout << "Enter the ticket number, followed by the person code (1, 2, 3, or 4):\n";
-    cout<<"Insert a negatie number or zero(0) to terminate<<endl;
+    cout<<"Insert a negatie number or zero(0) to terminate."<<endl;
     do {
         cin >> ticket_number >> person_code; //accept ticket number and person code consecutively
 	    cout << "Enter the ticket number, followed by the person code (1, 2, 3, or 4):\n";
@@ -43,7 +43,7 @@ int main()
                 break;
             default:                         
                 cout << "Invalid code" << endl;
-                return 0;         
+                break;         
 	}
 	    
         total_people++;

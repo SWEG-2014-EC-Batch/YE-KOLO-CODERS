@@ -11,7 +11,6 @@ int main()
     cout<<"Insert a negatie number or zero(0) to terminate."<<endl;
     do {
         cin >> ticket_number >> person_code; //accept ticket number and person code consecutively
-	    cout << "Enter the ticket number, followed by the person code (1, 2, 3, or 4):\n";
 
         if (cin.fail() || person_code <= 0)  // cin.fail() checks if the input operation failed
         {
@@ -43,11 +42,14 @@ int main()
                 break;
             default:                         
                 cout << "Invalid code" << endl;
+		total_people--;
                 break;         
 	}
 	    
         total_people++;
         total_sales+= entrance_fee;
+	    
+cout << "Enter the ticket number, followed by the person code (1, 2, 3, or 4):\n"; //prompt user to enter ticket number and code
 		
         } while (true);                    
     cout<<"\nTotal number of people: "<<total_people <<endl;

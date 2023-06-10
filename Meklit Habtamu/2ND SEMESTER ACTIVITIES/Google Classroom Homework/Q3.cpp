@@ -9,15 +9,33 @@ double hypo;
 
 double hypotenuse(double, double)
 {
-           cout<<"Enter The Sides Of The Triangle: "<<endl;
-           cin>>side1>>side2;
-            hypo = sqrt(pow(side1, 2) + pow(side2, 2));
-            return (hypo);
+    for (int i = 0; i < 3; i++)
+    {
+        if (i == 0)
+        {
+            side1 = 3.0;
+            side2 = 4.0;
+        }
+        else if (i == 1)
+        {
+            side1 = 5.0;
+            side2 = 12.0;
+        }
+        else if (i == 2)
+        {
+            side1 = 8.0;
+            side2 = 15.0;
+        }
+        else
+        {
+            break;
+        }
+        hypo = sqrt(pow(side1, 2) + pow(side2, 2));
+        cout << "The hypotenuse of the triangle with sides: " << side1 << ", " << side2 << " is: " << hypo << endl;
+    }
 }
 int main()
 {
-    hypo = hypotenuse(side1, side2);
-
-        cout << "The Hypotenuse Of The Triangle is: " << hypo << endl;
-   
+    hypotenuse(side1, side2);
+    return 0;
 }

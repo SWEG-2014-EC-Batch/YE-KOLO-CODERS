@@ -27,7 +27,6 @@ int main()
 {
     // Prompt the user to enter two numbers
     cout << "Enter Two Numbers:" << endl;
-    // Read in the two numbers from the user and assign them to num1 and num2
     cin >> num1 >> num2;
 
     // Declare a variable answer of type double

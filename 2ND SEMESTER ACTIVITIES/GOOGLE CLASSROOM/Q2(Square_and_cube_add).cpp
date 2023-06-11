@@ -23,7 +23,6 @@ double calc(double cube, double square)
     return (cube + square);
 }
 
-// Define the main function
 int main()
 {
     // Prompt the user to enter two numbers

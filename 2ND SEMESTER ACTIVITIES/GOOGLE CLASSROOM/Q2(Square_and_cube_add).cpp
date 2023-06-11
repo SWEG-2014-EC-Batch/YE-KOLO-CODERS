@@ -31,7 +31,7 @@ int main()
 
     // Declare a variable answer of type double
     double answer;
-    // Call the function calc with num1 and num2 as input and assign the result to answer
+    // Call the function calc with num1 and num2 as input and assign the result to the answer
     answer = calc(num1, num2);
     // Print the value of answer to the console
     cout << "Answer=" << answer << endl;

@@ -36,6 +36,5 @@ int main()
     // Print the value of answer to the console
     cout << "Answer=" << answer << endl;
 
-    // End the program
     return 0;
 }

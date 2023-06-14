@@ -24,6 +24,9 @@ Project 3: This project involves creating an income calculator, that takes tax, 
 
 Project 4: Last but not Least, thiss project invloves creating a Grade Calculator for students.
 
+#Future Plans
+Our long-term goal is to connect with other software engineering groups in our community to share information, work on joint projects, and strengthen our network. We also intend to improve our soft skills, such as communication, leadership, and teamwork, as we develop. We will participate in collaborative events, collaborate on joint initiatives, share resources and knowledge, form partnerships, and attend conferences and meetups. We can develop a stronger network, learn from others, and tackle larger and more effective projects by partnering with other organizations and strengthening our soft skills. Join us as we gain the skills needed to have a good effect on the larger community as a community of software engineering students. 
+
 # Contributing We welcome contributions to our projects!
 If you are interested in contributing, please follow these steps: 
 1. Fork the repository. 

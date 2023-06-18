@@ -1,0 +1,16 @@
+include<iostream>
+using namespace std;
+
+float multi(float, float);
+int main(){
+	int num1, num2;
+	cout<<"enter 2 numbers: "<<endl;
+	cin>> num1>> num2;
+
+cout<< multi(num1, num2)<<endl;
+return 0;
+	
+}
+float multi(float x, float y){
+	return x* y;
+}

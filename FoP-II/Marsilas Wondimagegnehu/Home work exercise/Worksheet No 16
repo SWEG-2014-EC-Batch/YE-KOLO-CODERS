@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+
+void get_time(int& hour, int& minute);
+void convert_time(int& hour, int& minute, char& period);
+void print_time(int hour, int minute, char period);
+
+int main() {
+    int hour, minute;
+    char period;
+    char again;
+    
+    do {
+        get_time(hour, minute);
+        convert_time(hour, minute, period);
+        print_time(hour, minute, period);
+        
+        cout << "Convert another time? (y/n): ";
+        cin >> again;
+    } while (again == 'y' || again == 'Y');
+    
+    return 0;
+}
+
+void get_time(int& hour, int& minute) {
+    cout << "Enter hour (0-23): ";
+    cin >> hour;
+    cout << "Enter minute (0-59): ";
+    cin >> minute;
+}
+
+void convert_time(int& hour, int& minute, char& period) {
+    if (hour == 0) {
+        hour = 12;
+        period = 'A';
+    }
+    else if (hour == 12) {
+        period = 'P';
+    }
+    else if (hour > 12 && hour < 18) {
+        hour -= 12;
+        period = 'P';
+    }
+    else if (hour > 18) {
+        hour -= 12;
+        period = 'A';
+		}
+    else {
+        period = 'A';
+    }
+}
+
+void print_time(int hour, int minute, char period) {
+    cout << hour << ":" << minute << " " << period << "M" << endl;
+}

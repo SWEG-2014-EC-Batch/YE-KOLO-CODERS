@@ -29,6 +29,17 @@ Project 4: Last but not Least, thiss project invloves creating a Grade Calculato
 Our long-term goal is to connect with other software engineering groups in our community to share information, work on joint projects, and strengthen our network. We also intend to improve our soft skills, such as communication, leadership, and teamwork, as we develop. We will participate in collaborative events, collaborate on joint initiatives, share resources and knowledge, form partnerships, and attend conferences and meetups. We can develop a stronger network, learn from others, and tackle larger and more effective projects by partnering with other organizations to build a strong and supportive community and strengthn our soft skills.The group hopes to be an inspiration to future students who are interested in software engineering, regardless of their level of experience and backgrounds and encourages open communication and respect for different perspectives.
 YE-KOLO-CODERS recognizes the importance of diversity and inclusivity in the tech industry and is dedicated to promoting these values within the group and beyond. Join us as we emabark on this journey and as we gain the skills needed to have a good effect on the larger community as a community of software engineering students. 
 
+# Goals
+1.Creating a supportive space where members can share their knowledge, ask questions, and receive feedback from their peers.
+
+2.Setting personal goals and working towards achieving them with the help of our peers and advisors.
+
+3.Gaining practical experience in software engineering by working on projects and participating in different programs.
+
+4.Fostering a culture of continuous learning and improvement by seeking out resources, workshops, and mentorship to help us develop our skills.
+
+5.Encouraging diversity and inclusivity in the tech industry by advocating for and supporting women in software engineering.
+
 # Contributing We welcome contributions to our projects!
 If you are interested in contributing, please follow these steps: 
 1. Fork the repository. 

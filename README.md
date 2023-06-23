@@ -8,7 +8,7 @@ Group of girls who code!
               
 # About YE-KOLO-CODERS
 
-YE-KOLO-CODERS is a group of female students interested in software engineering, programming languages, and databases. Our goal is to create innovative solutions to complex problems while continuously learning and improving our skills. 
+YE-KOLO-CODERS is a group of female students interested in software engineering, programming languages, and databases. Our goal is to create innovative solutions to complex problems while continuously learning and improving our skills. The group prides itself on its commitment to excellence. Members are encouraged to set high standards for themselves and to challenge themselves to learn new skills and take on new responsibilities. YE-KOLO-CODERS are committed to pursuing different opportunities and acquiring new skills and knowledge. Members often set personal goals and work towards achieving them with the support of their peers and advisors.
  
 # YE-KOLO-CODERS Coding Projects
 

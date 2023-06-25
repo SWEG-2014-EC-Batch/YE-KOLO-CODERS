@@ -1,6 +1,7 @@
-#include "stringlength.h"
+
 #ifndef VOWELS_H
 #define VOWELS_H
+#include "stringlength.h"
 int vowels(char string[])
 {
      int vowelnum=0;

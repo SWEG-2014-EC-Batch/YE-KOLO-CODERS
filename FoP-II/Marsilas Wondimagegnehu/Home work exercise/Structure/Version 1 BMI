@@ -1,0 +1,53 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+struct personal_info{
+     char name[100];
+     char gender;
+     int age;
+     double weight, height;
+	 
+} ;
+  
+  
+int main(){
+	int size = 1;
+
+    cout << "ENTER NUMBER OF PEOPLE(maximum 10):";
+    cin >> size;
+
+    while(size > 10)
+    {
+    cout << "ENTER NUMBER OF PEOPLE(maximum 10):";
+    cin >> size;
+    }
+    
+	struct personal_info person[100];
+	double BMI[size];
+	
+	for(int i = 0; i < size; i++){
+	
+	 cout<<"Enter the " << i+1 <<" name? ";
+	 cin.ignore();
+	 cin.getline(person[i].name,100 ) ;
+	 cout<<"Enter the " << i+1 <<" gender? ";
+	 cin>> person[i].gender;
+	 cout<<"Enter the " << i+1 <<" age? ";
+	 cin>> person[i].age;	 
+	 cout<<"Enter the " << i+1 <<" weight? ";
+	 cin>> person[i].weight;	 
+	 cout<<"Enter the " << i+1 <<" height? ";
+	 cin>> person[i].height;
+	
+	 BMI[i] = (person[i].weight) / (pow(person[i].height,2)) ;
+	}
+    for(int i = 0; i < size; i++) {
+     cout<<"Name "<< i+1 <<" = "<< person[i].name <<endl;
+     cout<<"Gender "<< i+1 <<" = "<< person[i].gender <<endl;
+	 cout<<"Age "<< i+1 <<" = "<< person[i].age <<endl;
+	 cout<<"Weight "<< i+1 <<" = "<< person[i].weight <<endl;
+	 cout<<"Height "<< i+1 <<" = "<< person[i].height <<endl;
+	 cout<<"Bmi "<< i+1 <<" = "<< BMI[i] <<endl;
+}
+}

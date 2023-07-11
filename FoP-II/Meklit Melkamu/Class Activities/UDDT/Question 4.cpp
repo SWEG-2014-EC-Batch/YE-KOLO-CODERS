@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-struct person
+struct student
 {
     char ID[15];
     char name[15];

@@ -6,7 +6,7 @@ int main()
 {
 
     ifstream employeeData;
-    employeeData.open("employeeDoc.txt", ios::in);
+    employeeData.open("employee.txt", ios::in);
     if (!employeeData)
     {
         cout << "File could not be opened!" << endl;

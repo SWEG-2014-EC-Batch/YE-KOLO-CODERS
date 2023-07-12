@@ -8,7 +8,7 @@ struct TeamMember {
 };
 
 int main() {
-    std::vector<TeamMember> team = {{"ETS0839/14", "Kaku Temesgen"}, {"ETS0814/14", "Hiwot Tadesse"}, {"ETS0955/14", "Kumneger Bekele"}, {"ETS1020/14", "Medehanit Andualem"}, {"ETS1061/14", "Michael"}};
+    std::vector<TeamMember> team = {{"ETS1030/14", "Meklit Habtamu"}, {"ETS1029/14", "Meklit Melkamu"}, {"ETS1012/14", "Marsilas Wondimagegnew"}, {"ETS1020/14", "Medehanit Andualem"}, {"ETS1030/14", "Melat"}};
 
     std::cout << "Enter an ID: ";
     std::string id;

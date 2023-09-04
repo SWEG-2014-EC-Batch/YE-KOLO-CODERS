@@ -1,0 +1,36 @@
+ #include <iostream>
+#include <string.h>
+using namespace std;
+template <class T>
+bool checkPalindrome(T text[], int left, int right){
+  if(left >= right){
+    return true;
+  }
+  else if (text[left] == text[right]){
+    return true;
+  }
+  else{
+    return false;
+  }
+}
+template <class T>
+bool is_palindrome(T text[]){
+
+  int length = strlen(text);
+  if(length == 0 && length == 1){
+    return true;
+  }
+  return checkPalindrome(text, 0, length - 1);
+}
+int main(){
+  char text[100];
+    cout << "Enter the text ";
+    cin.getline(text, 100);
+  
+  if(is_palindrome(text))
+      cout << text << " is palindrome ";
+  else{
+    cout << text << " is not palindrome ";
+  }
+  return 0;
+}

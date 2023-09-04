@@ -1,0 +1,20 @@
+ #include <iostream>
+using namespace std;
+const int size = 5;
+
+template <class T>
+T findLargestElement(T vector[size]){
+  T max = vector[0];
+  for (int i = 1; i < size; i++){
+    if (vector[i] > max){
+      max = vector[i];
+    }
+        
+  }
+  return max;
+}
+int main(){
+  int number[size] = {52, 23, 93, 17, 9};
+  cout << findLargestElement <int> (number);
+  return 0;
+}

@@ -1,0 +1,29 @@
+#include <iostream>
+#include <map>
+using namespace std;
+
+int main() {
+    map<int, int> histogram;
+
+    int number;
+   cout << "Enter number from starting from -1 " << endl;
+
+    while (true) {
+        cin >> number;
+
+        if (number == -1) {
+            break;
+        }
+
+        if (number > 0) {
+            ++histogram[number];
+        }
+    }
+
+  cout << endl << "Histogram:" << std::endl;
+
+    for (map<int, int>::const_iterator it = histogram.begin(); it != histogram.end(); ++it) {
+        cout << it->first << ": " << it->second << endl;
+    }
+
+    return 0;

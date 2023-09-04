@@ -1,0 +1,29 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+int main() 
+{
+
+vector<int> numbers = {5, 3, 8, 4, 7, 2, 1};
+
+// Element to search
+int element = 5;
+
+// Find element using find algorithm
+vector<int>::iterator itr =
+find(numbers.begin(), numbers.end(), element);
+
+// Check if element is found
+if(itr != numbers.end())
+{
+cout << element << " found at index " << itr - numbers.begin();
+}
+else
+{
+cout << element << " not found";
+}
+
+return 0;
+}

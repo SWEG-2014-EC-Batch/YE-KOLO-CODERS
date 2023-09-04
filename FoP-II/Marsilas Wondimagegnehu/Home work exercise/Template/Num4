@@ -1,0 +1,22 @@
+ #include <iostream>
+using namespace std;
+
+template<typename T1, typename T2>
+double floatingPointDivide(T1 numerator, T2 denominator) {
+    return static_cast<double>(numerator) / denominator;
+}
+
+int main() {
+    int a = 10;
+    float b = 3.5;
+    long c = 100;
+    double d = 2.5;
+
+    double result1 = floatingPointDivide(a, b);
+    double result2 = floatingPointDivide(c, d);
+
+    cout << "Result 1: " << result1 << endl;
+    cout << "Result 2: " << result2 << endl;
+
+    return 0;
+}

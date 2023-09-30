@@ -53,3 +53,44 @@ int main() {
     cout << "\t\t||\t7. Calculate Profit \t\t ||\n";
     cout << "\t\t||\t8. Status Report \t\t ||\n";
     cout << "\t\t||\t9. Exit\t\t\t\t ||\n"
+         while (menu != 9) {
+        cout << "Enter choice (from menu): ";
+        cin >> menu;
+
+        switch (menu) {
+            case 1:
+                medicine.recordInfo();
+                break;
+            case 2:
+                medicine.printInfo();
+                break;
+            case 3:
+                medicine.checkAvailability();
+                break;
+            case 4:
+                medicine.drugDisposal();
+                break;
+            case 5:
+                medicine.checkExpiration();
+                break;
+            case 6:
+                medicine.calcSales();
+                break;
+            case 7:
+                medicine.calcProfit();
+                break;
+            case 8:
+                medicine.statReport();
+                break;
+            case 9:
+                medicine.exitProgram();
+                break;
+            default:
+                cout << "You have entered an invalid input." << endl;
+                break;
+        }
+    }
+
+    cout << "Thank you!" << endl;
+    return 0;
+}

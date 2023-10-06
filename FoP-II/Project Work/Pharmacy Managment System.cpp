@@ -145,3 +145,73 @@ void Pharmacy<T>::recordInfo() {
 
     outFile.close();
 }
+template<typename T>
+void Pharmacy<T>::printInfo() 
+{
+    string line;
+    ifstream inFile("PHARMACY.txt", ios :: in);
+
+    if (!inFile)
+    {
+        cout << "Unable to open file!" << endl;
+        return;
+    }
+
+    while (getline(inFile, line)) {
+        cout << line << endl;
+    }
+
+    inFile.close();
+}
+
+template<typename T>
+void Pharmacy<T>::checkAvailability() 
+{
+    T code;
+
+    cout << "Enter drug code: ";
+    cin >> code;
+
+    bool found= false;
+
+    for (const auto& drug : drugs) 
+    {
+        if (drug.code == code) 
+        {
+            found = true;
+            break;
+        }
+    }
+
+    if (found) {
+        cout << "The drug is available." << endl;
+    } else {
+        cout << "The drug is not available." << endl;
+    }
+}
+
+template<typename T>
+void Pharmacy<T>::drugDisposal() 
+{
+    T code;
+
+    cout << "Enter drug code to delete: ";
+    cin >> code;
+
+    bool found = false;
+
+    for (auto i = drugs.begin(); i != drugs.end(); ++i) 
+    {
+        if (i->code == code) {
+            found = true;
+            drugs.erase(i);
+            break;
+        }
+    }
+
+    if (found) {
+        cout << "Drug with code " << code << " has been deleted." << endl;
+    } else {
+        cout << "Drug with code " << code << " was not found." << endl;
+    }
+}

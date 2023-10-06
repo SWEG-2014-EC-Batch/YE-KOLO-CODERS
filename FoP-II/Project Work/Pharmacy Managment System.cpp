@@ -94,3 +94,54 @@ int main() {
     cout << "Thank you!" << endl;
     return 0;
 }
+template<typename T>
+void Pharmacy<T>::recordInfo() {
+    ofstream outFile("PHARMACY.txt", ios::out);
+
+    if (!outFile) {
+        cout << "UNABLE TO OPEN FILE!" << endl;
+        return;
+    }
+
+    char choice = 'Y';
+
+    while (choice == 'Y' || choice == 'y') {
+        Drug<T, string> drug;
+
+        cout << "-----DRUG-RECORD-----" << endl;
+
+        cout << "CODE: ";
+        cin >> drug.code;
+        outFile << "Code: " << drug.code << endl;
+
+        cout << "NAME: ";
+        cin.ignore();
+        cin >> drug.name;
+        outFile << "Name: " << drug.name << endl;
+
+        cout << "BUYING PRICE: ";
+        cin >> drug.buyingPrice;
+        outFile << "Buying Price: " << drug.buyingPrice << endl;
+
+        cout << "SELLING PRICE: ";
+        cin >> drug.sellingPrice;
+        outFile << "Selling Price: " << drug.sellingPrice << endl;
+
+        cout << "PRODUCTION DATE (DD/MM/YY): ";
+        cin >> drug.proDate.day >> drug.proDate.month >> drug.proDate.year;
+        outFile << "Production Date: " << drug.proDate.day << "/" << drug.proDate.month << "/" << drug.proDate.year << endl;
+
+        cout << "EXPIRATION DATE (DD/MM/YY): ";
+        cin >> drug.endDate.day >> drug.endDate.month >> drug.endDate.year;
+        outFile << "End Date: " << drug.endDate.day << "/" << drug.endDate.month << "/" << drug.endDate.year << endl;
+
+        outFile << "------------------------" << endl;
+
+        drugs.push_back(drug);
+
+        cout << "Would you like to add another drug? (Y/N): ";
+        cin >> choice;
+    }
+
+    outFile.close();
+}

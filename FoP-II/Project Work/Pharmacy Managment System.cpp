@@ -231,4 +231,3 @@ void Pharmacy<T>::calcProfit()
 
     cout << "Total profit: " << profit << endl;
 }
-

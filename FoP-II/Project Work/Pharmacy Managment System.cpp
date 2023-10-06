@@ -231,3 +231,26 @@ void Pharmacy<T>::calcProfit()
 
     cout << "Total profit: " << profit << endl;
 }
+
+template<typename T>
+void Pharmacy<T>::calcSales() {
+    double totalSales = 0.0;
+
+    for (const auto& drug : drugs) {
+        totalSales += drug.sellingPrice;
+    }
+
+    cout << "Total sales: " << totalSales << endl;
+}
+template<typename T>
+void Pharmacy<T>::statReport() 
+{
+    calcSales();
+    calcProfit();
+}
+
+template<typename T>
+void Pharmacy<T>::exitProgram() {
+    cout << "Exiting the program..." << endl;
+    
+}

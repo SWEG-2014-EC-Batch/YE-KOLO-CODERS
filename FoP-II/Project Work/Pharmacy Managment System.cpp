@@ -215,3 +215,20 @@ void Pharmacy<T>::drugDisposal()
         cout << "Drug with code " << code << " was not found." << endl;
     }
 }
+template<typename T>
+void Pharmacy<T>::calcProfit() 
+
+{
+    double totalCost = 0.0;
+    double totalSales = 0.0;
+
+    for (const auto& drug : drugs) {
+        totalCost += drug.buyingPrice;
+        totalSales += drug.sellingPrice;
+    }
+
+    double profit = totalSales - totalCost;
+
+    cout << "Total profit: " << profit << endl;
+}
+

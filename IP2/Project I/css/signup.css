@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Satoshi', sans-serif;
+    box-sizing: border-box;
+}
+
+.logo {
+    background: #1C0A00;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.EthLogo {
+    height: 75px;
+    width: 170px;
+}
+
+body {
+    background: #EBE4D7;
+    height: 100vh;
+}
+
+.wrapper {
+    width: 330px;
+    height: 77%;
+    padding: 2rem 1rem;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    color: #000000;
+
+}
+
+h1 {
+    font-size: 2rem;
+    color: #000000;
+    margin-bottom: 1.2rem;
+}
+
+form input {
+    width: 92%;
+    outline: none;
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background: #e4e4e4;
+}
+ 
+   
+
+.btn {
+    font-size: 1rem;
+    margin-top: 1.8rem;
+    padding: 10px 20px;
+    border-radius: 30px;
+    outline: none;
+    width: 90%;
+    border: 2px solid #5C2C00;
+    background: #5C2C00;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #5C2C00;
+}
+
+input:focus {
+    border: 1px solid rgb(192, 192, 192);
+}
+
+.login {
+    margin-top: 40px;
+    font-size: 0.6rem;
+    opacity: 0.8;
+}
+
+.login a {
+    text-decoration: none;
+    color: #5C2C00;
+    opacity: 1;
+}
+
+footer {
+    background: #1C0A00;
+    color: #fff;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+footer .elements {
+    padding: 5px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #fff;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.socialIcons i {
+    font-size: 1em;
+    color: #1C0A00;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background: #1C0A00;
+    transition: 0.5s;
+
+}
+
+.socialIcons i:hover {
+    color: #fff;
+    transition: 0.5s;
+}
+
+.footerNav {
+    margin: 30px 0;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+.footerNav ul li a {
+    color: #fff;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1;
+}
+
+.footerBottom {
+    background-color: #1C0A00;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.designer {
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}

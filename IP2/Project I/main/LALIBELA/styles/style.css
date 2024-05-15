@@ -1,0 +1,317 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Satoshi', sans-serif;
+}
+
+.logo {
+  background: #1C0A00;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.EthLogo {
+  height: 75px;
+  width: 120px;
+}
+
+.login {
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 20px;
+  opacity: 0.7;
+}
+
+.login:hover {
+  opacity: 1;
+}
+
+.navBar {
+  background: #361500;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.navDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.navDiv ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+
+}
+
+.navDiv li {
+  list-style: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.navDiv li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.navDiv li a:hover {
+  color: #fff;
+  background-color: #000000;
+}
+
+.home {
+  font-weight: 700;
+}
+
+.mainContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(../images/photo_2024-01-13_10-34-48.jpg);
+  height: 100vh;
+  background-size: 100%  100%; /* This will resize the image to cover the entire container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  
+}
+
+.mainContent a {
+  color: #fff;
+  font-size: 100px;
+  font-family: 'Gambetta', serif;
+  text-decoration: none;
+  transition: 400ms;
+  cursor: pointer;
+}
+
+.mainContent a:hover {
+  letter-spacing: 70px;
+}
+
+.History {
+  background-color: #FFEFCF;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HistoryText {
+  max-width: 60%;
+}
+
+.historyText h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.historyText p {
+  font-size: 16px;
+}
+
+#Lalibelaimg {
+  border-radius: 15px;
+  width: 400px;
+  height: 300px;
+}
+
+.HistoryText a {
+  color: #000000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.Facts {
+  background-color: #FFEFCF;
+  color: #000000;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.FactsText {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.FactsText h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.FactsText ul {
+  font-size: 16px;
+  padding-left: 20px;
+}
+
+#LalibelaAtNight {
+  width: 400px;
+  border-radius: 15px;
+}
+
+.Heritage {
+  background-color: #1C0A00;
+  color: #fff;
+  padding: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HeritageText {
+  max-width: 60%;
+}
+
+.HeritageText h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#JimmaHeritage {
+  width: 300px;
+  border-radius: 15px;
+}
+
+.Road {
+  background: #442000;
+  height: 100vh;
+  position: relative;
+}
+
+.Road h3 {
+  font-family: 'Gambetta', serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+.ByRoad,
+.ByAirPlane,
+.ByTrain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 25px;
+  margin: 20px;
+  position: relative;
+}
+
+.ByTrain {
+  max-width: 100%;
+}
+
+
+#carImg,
+#planeImg,
+#trainImg {
+  border-radius: 15px;
+  width: 100px;
+}
+
+.ByAirPlaneText,
+.ByRoadText,
+.ByTrainText {
+  color: #fff;
+  padding-left: 30px;
+  position: relative;
+}
+
+footer {
+  background: #1C0A00;
+  color: #fff;
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+
+footer .elements {
+  padding: 5px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: #fff;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.socialIcons i {
+  font-size: 1em;
+  color: #1C0A00;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background: #1C0A00;
+  transition: 0.5s;
+
+}
+
+.socialIcons i:hover {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.footerNav {
+  margin: 30px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+
+}
+
+.footerNav ul li a {
+  color: #fff;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: #1C0A00;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
